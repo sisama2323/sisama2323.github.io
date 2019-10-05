@@ -1,0 +1,6 @@
+  @inproceedings{Guo_IFOM_IROS19,
+    author = {S. Guo and N. Atanasov},
+    title = {Information Filter Occupancy Mapping using Decomposable Radial Kernels},
+    booktitle = {IEEE/RSJ Int. Conf. on Intelligent Robots and Systems (IROS)},
+    year = {2019}
+  }
