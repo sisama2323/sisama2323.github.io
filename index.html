@@ -180,28 +180,54 @@
       </center>
       </td>
 
-   </tr>
-  </table>
+     </tr>
+    </table>
             <br>
             <br>
             <table align=center width=600px>
                 <tr>
                     <td width=600px>
-                      <center>
-                          <a href="./images/algorithm.png"><img src = "./images/algorithm.png" height="250px"></img></href></a><br>
-                    </center>
+                          <a href="./gif/teddy.gif"><img src = "./gif/teddy.gif" height="250px"></img></href></a><br>
+                    </td>
+                    <td width=600px>
+                          <a href="./gif/simulation.gif"><img src = "./gif/simulation.gif" height="250px"></img></href></a><br>
                     </td>
                 </tr>
                     <td width=600px>
+                          <a href="./gif/cabinet.gif"><img src = "./gif/cabinet.gif" height="250px"></img></href></a><br>
+                    </td>
+                    <td width=600px>
+                          <a href="./gif/cabinet_cov.gif"><img src = "./gif/cabinet_cov.gif" height="250px"></img></href></a><br>
+                    </td>
+                </tr>
+                    <td colspan="2" width=600px>
                       <center>
-                          <span style="font-size:14px"><i>Given an annotated image collection of an object category, we learn a predictor that can map a novel image to its 3D shape, camera pose, and texture.</i>
-                    </center>
+                          <span style="font-size:14px"><i> Some dataset from TUM testing on Information filter occupancy mapping with 3D observation source </i>
+                      </center>
                     </td>
                 </tr>
             </table>
 
             <br>
-            We present a learning framework for recovering the 3D shape, camera, and texture of an object from a single image. The shape is represented as a deformable 3D mesh model of an object category where a shape is parameterized by a learned mean shape and per-instance predicted deformation. Our approach allows leveraging an annotated image collection for training, where the deformable model and the 3D prediction mechanism are learned without relying on ground-truth 3D or multi-view supervision. Our representation enables us to go beyond existing 3D prediction approaches by  incorporating texture inference as prediction of an image in a canonical appearance space. Additionally, we show that semantic keypoints can be easily associated with the predicted shapes. We present qualitative and quantitative results of our approach on the CUB dataset, and show that we can learn to predict the diverse shapes and textures across birds using only an annotated image collection. We also demonstrate the the applicability of our method for learning the 3D structure of other generic categories.
+            Building occupancy maps of the environment is a
+            fundamental problem for robot autonomy. A common assumption in early
+            work was that the occupancy states of different
+            map elements are independent. Recently, Gaussian Process (GP)
+            techniques were proposed to capture correlation information,
+            which is important not only for improved accuracy but also for
+            uncertainty quantification and autonomous exploration based
+            on the predicted occupancy of nearby unexplored areas. Despite
+            these desirable properties, current GP mapping techniques are
+            limited to small maps and slow inference speeds. This paper
+            proposes an information space formulation of the Bayesian
+            mapping problem which leads to an efficient and accurate
+            representation of the occupancy distribution. We also show
+            that the map distribution can be stored very efficiently if a
+            decomposable radial kernel is evaluated over a latent rectilinear
+            grid of pseudo-input points. We utilize this structure to design
+            an information filter occupancy mapping algorithm with linear
+            time and memory complexity that still permits continuous space
+            observations and predictions.
             <br><br>
           <hr>
          <!-- <table align=center width=550px> -->
@@ -241,7 +267,7 @@
             <table align=center width=1000px>
                 <tr>
                         <center>
-                          <a href='https://github.com/sisama2323/gp_map'><img class="round" style="height:250" src="./images/result.png"/></a>
+                          <a href='https://github.com/sisama2323/gp_map'><img class="round" style="height:250" src="./images/algorithm.png"/></a>
                         </center>
               </tr>
           </table>
@@ -263,7 +289,7 @@
                     <td>
                       <left>
                 <center><h1>Acknowledgements</h1></center>
-                We thank David Fouhey for the creative title suggestions, and members of the BAIR community for helpful discussions and comments. This work was supported in part by Intel/NSF VEC award IIS-1539099, NSF Award IIS-1212798, and BAIR sponsors. This webpage template was borrowed from some <a href="https://richzhang.github.io/colorization/">colorful folks</a>.
+                We thank </a>.
             </left>
         </td>
         </tr>
